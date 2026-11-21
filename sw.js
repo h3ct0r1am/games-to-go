@@ -1,6 +1,6 @@
 // Games To Go: macht die App offline nutzbar.
 // Die App selbst wird zuerst frisch geladen (damit Updates ankommen), sonst aus dem Speicher.
-const CACHE = 'gamestogo-v1';
+const CACHE = 'gamestogo-v2';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
